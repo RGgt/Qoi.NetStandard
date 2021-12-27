@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>RGgt</Authors>
+    <Product>Qoi.NetStandard</Product>
+    <PackageId>Qoi.NetStandard</PackageId>
+    <Description>A .Net Standard 2.0 implementation of QOI format.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RGgt/Qoi.NetStandard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RGgt/Qoi.NetStandard</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>QOI,QoiEncoder,QoiDecoder,QoiImageFormat</PackageTags>
+    <Company />
+    <NeutralLanguage></NeutralLanguage>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Copyright />
+  </PropertyGroup>
+
+</Project>
