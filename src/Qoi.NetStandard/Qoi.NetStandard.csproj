@@ -12,9 +12,18 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>QOI,QoiEncoder,QoiDecoder,QoiImageFormat</PackageTags>
     <Company />
-    <NeutralLanguage></NeutralLanguage>
+    <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
-    <Copyright />
+    <Copyright>RGgt. All rights reserved.</Copyright>
+    <PackageIcon>qoi-logo-128.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\qoi-logo-128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
