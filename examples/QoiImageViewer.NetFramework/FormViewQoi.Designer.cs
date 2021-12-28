@@ -32,8 +32,8 @@ namespace QoiImageViewer.NetFramework
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormViewQoi));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.ofdOpenQoiImage = new System.Windows.Forms.OpenFileDialog();
             this.tsbOpenQoiImage = new System.Windows.Forms.ToolStripButton();
+            this.ofdOpenQoiImage = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -61,10 +61,6 @@ namespace QoiImageViewer.NetFramework
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // ofdOpenQoiImage
-            // 
-            this.ofdOpenQoiImage.Filter = "Qoi image (*.qoi)|*.qoi|All files (*.*)|*.*";
-            // 
             // tsbOpenQoiImage
             // 
             this.tsbOpenQoiImage.Image = ((System.Drawing.Image)(resources.GetObject("tsbOpenQoiImage.Image")));
@@ -74,6 +70,10 @@ namespace QoiImageViewer.NetFramework
             this.tsbOpenQoiImage.Text = "Open .qoi image";
             this.tsbOpenQoiImage.Click += new System.EventHandler(this.tsbOpenQoiImage_Click);
             // 
+            // ofdOpenQoiImage
+            // 
+            this.ofdOpenQoiImage.Filter = "Qoi image (*.qoi)|*.qoi|All files (*.*)|*.*";
+            // 
             // FormViewQoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -82,7 +82,7 @@ namespace QoiImageViewer.NetFramework
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormViewQoi";
-            this.Text = "View .Qoi image";
+            this.Text = "View .Qoi image (.Net Framework)";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
