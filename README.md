@@ -58,7 +58,7 @@ byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width, png
 <center>
 
 | | |
-|--------------------------------|-----------------|
+|:--------------------------------:|:-----------------:|
 | ![GitHub](https://img.shields.io/badge/-Net_Standard_2.0-blue) | ![GitHub](https://img.shields.io/badge/-Net_Framework_4.6.1+-blue) |
 | ![GitHub](https://img.shields.io/badge/-Net_Core_2.0+-blue) | ![GitHub](https://img.shields.io/badge/-NET_5.0+-blue) |
 | ![GitHub](https://img.shields.io/badge/-Mono_5.4+-blue) | ![GitHub](https://img.shields.io/badge/-Xamarin.iOS_10.14+-blue) |
