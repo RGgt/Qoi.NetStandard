@@ -1,7 +1,14 @@
 # Qoi.NetStandard ![GitHub](https://img.shields.io/github/license/RGgt/Qoi.NetStandard)
 <br/>
+<div align="center">
 
-An implementation of QOI format (https://github.com/phoboslab/qoi) written in **.Net Standard 2.0** and therefore compatible with all modern versions of .Net, including **.Net Framework 4**, **Core 3.0**, **NET 5**, **NET 6**, and **Xamarin**.
+![QOI Logo](qoi-logo.svg)
+# The “Quite OK Image Format” <br/>for fast, lossless image compression
+
+</div>
+<br/>
+
+This is an implementation of QOI format (https://github.com/phoboslab/qoi) written in **.Net Standard 2.0** and therefore compatible with all modern versions of .Net, including **.Net Framework 4**, **Core 3.0**, **NET 5**, **NET 6**, and **Xamarin**.
 
 <br/><br/>
 
