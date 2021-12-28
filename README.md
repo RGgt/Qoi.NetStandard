@@ -1,4 +1,5 @@
 # Qoi.NetStandard ![GitHub](https://img.shields.io/github/license/RGgt/Qoi.NetStandard)
+<br/>
 
 An implementation of QOI format (https://github.com/phoboslab/qoi) written in **.Net Standard 2.0** and therefore compatible with all modern versions of .Net, including **.Net Framework 4**, **Core 3.0**, **NET 5**, **NET 6**, and **Xamarin**.
 
@@ -54,11 +55,6 @@ byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width, png
 ...
 ```
 <br/><br/>
-
---- 
- 
-<br/>
-
 ## List of compatible .Net implementations:
 <br/>
 <div align="center">
