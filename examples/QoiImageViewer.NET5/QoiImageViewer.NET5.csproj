@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Qoi.NetStandard" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormViewQoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormViewQoi.Designer.cs">
+      <DependentUpon>FormViewQoi.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="FormViewQoi.resx">
+      <DependentUpon>FormViewQoi.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
