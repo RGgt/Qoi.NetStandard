@@ -6,11 +6,13 @@ An implementation of QOI format (https://github.com/phoboslab/qoi) written in **
 ## Installation
 
 This library is also available via Nuget
+<center>
 
 | Package Name                   | Release (Qoi.NetStandard) |
-|--------------------------------|-----------------|
+|:--------------------------------|:-----------------:|
 | `Qoi.NetStandard`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
 
+</center>
 # Sample usage
 
 ## Decoding a .qoi image
@@ -53,10 +55,13 @@ byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width, png
 
 
 ## List of compatible .Net implementations
+<center>
+
 | | |
 |--------------------------------|-----------------|
-| ![GitHub](https://img.shields.io/badge/Compatible-Net_Standard_2.0-blue) | ![GitHub](https://img.shields.io/badge/Compatible-Net_Framework_4.6.1+-blue) |
-| ![GitHub](https://img.shields.io/badge/Compatible-Net_Core_2.0+-blue) | ![GitHub](https://img.shields.io/badge/Compatible-CORE_5.0+-blue) |
-| ![GitHub](https://img.shields.io/badge/Compatible-Mono_5.4+-blue) | ![GitHub](https://img.shields.io/badge/Compatible-Xamarin.iOS_10.14+-blue) |
-| ![GitHub](https://img.shields.io/badge/Compatible-Xamarin.Android_8.0+-blue) | ![GitHub](https://img.shields.io/badge/Compatible-Unity_2018+-blue) |
+| ![GitHub](https://img.shields.io/badge/-Net_Standard_2.0-blue) | ![GitHub](https://img.shields.io/badge/-Net_Framework_4.6.1+-blue) |
+| ![GitHub](https://img.shields.io/badge/-Net_Core_2.0+-blue) | ![GitHub](https://img.shields.io/badge/-NET_5.0+-blue) |
+| ![GitHub](https://img.shields.io/badge/-Mono_5.4+-blue) | ![GitHub](https://img.shields.io/badge/-Xamarin.iOS_10.14+-blue) |
+| ![GitHub](https://img.shields.io/badge/-Xamarin.Android_8.0+-blue) | ![GitHub](https://img.shields.io/badge/-Unity_2018+-blue) |
 
+</center>
