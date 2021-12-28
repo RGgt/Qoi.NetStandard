@@ -6,13 +6,15 @@ An implementation of QOI format (https://github.com/phoboslab/qoi) written in **
 ## Installation
 
 This library is also available via Nuget
-<center>
+<div align="center">
 
 | Package Name                   | Release (Qoi.NetStandard) |
 |:--------------------------------|:-----------------:|
 | `Qoi.NetStandard`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
 
-</center>
+</div> <br/><br/>
+ 
+
 # Sample usage
 
 ## Decoding a .qoi image
@@ -50,11 +52,14 @@ The main thing to take into account is that [decodedBytes] are the actual bytes 
 byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width, pngImage.Height, decodedBytes, hasAlpha, linearAlpha);
 ...
 ```
+<br/><br/>
+
 --- 
  
+<br/>
 
-
-## List of compatible .Net implementations
+## List of compatible .Net implementations:
+<br/>
 <div align="center">
 
 | | |
