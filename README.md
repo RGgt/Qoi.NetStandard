@@ -7,7 +7,7 @@ An implementation of QOI format (https://github.com/phoboslab/qoi) written in **
 
 This library is also available via Nuget
 
-| Package Name                   | Release (NuGet) |
+| Package Name                   | Release (Qoi.NetStandard) |
 |--------------------------------|-----------------|
 | `QoiSharp`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
 
