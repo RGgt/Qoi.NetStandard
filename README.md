@@ -9,7 +9,7 @@ This library is also available via Nuget
 
 | Package Name                   | Release (Qoi.NetStandard) |
 |--------------------------------|-----------------|
-| `QoiSharp`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
+| `Qoi.NetStandard`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
 
 # Sample usage
 
