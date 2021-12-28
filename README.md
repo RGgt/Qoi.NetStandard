@@ -51,7 +51,15 @@ byte[] colorBytes = Qoi.NetStandard.QoiEncoder.DecodeQoi(qoiFileByes, out Qoi.Ne
 ## Encoding a .qoi image
 The main thing to take into account is that [decodedBytes] are the actual bytes of the image, so the (A)RGB information, not the bytes of the image file itself.
 ```csharp
-byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width, pngImage.Height, decodedBytes, hasAlpha, linearAlpha);
+byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width,
+    pngImage.Height,
+    decodedBytes,
+    hasAlpha,
+    linearAlpha);
+// THAT'S ALL!
+
+// You can now write all these bytes as a .qoi file.
+File.WriteAllBytes("myQoiImage.qoi", qoiFileBytes);
 ...
 ```
 <br/><br/>
