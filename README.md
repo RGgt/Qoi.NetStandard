@@ -8,9 +8,9 @@
 </div>
 <br/>
 
-This is an implementation of QOI format (https://github.com/phoboslab/qoi) written in **.Net Standard 2.0** and therefore compatible with all modern versions of .Net, including **.Net Framework 4**, **Core 3.0**, **NET 5**, **NET 6**, and **Xamarin**.
+This is an implementation of QOI format (https://github.com/phoboslab/qoi) written in **.Net Standard 2.0** and therefore compatible with all modern versions of .Net, including **.Net Framework 4.6.1+**, **Net Core 2.0+**, **NET 5**, **NET 6**, and **Xamarin** (iOS 10.14+ and Android 8.0+).
 
-<br/><br/>
+---
 
 ## Installation
 
@@ -21,8 +21,9 @@ This library is also available via Nuget
 |:--------------------------------|:-----------------:|
 | `Qoi.NetStandard`         | [![NuGet](https://img.shields.io/nuget/v/Qoi.NetStandard.svg)](https://www.nuget.org/packages/Qoi.NetStandard/)
 
-</div> <br/><br/>
- 
+</div>
+
+---
 
 # Sample usage
 
@@ -69,16 +70,7 @@ byte[] qoiFileBytes = Qoi.NetStandard.QoiEncoder.EncodeToQoi(pngImage.Width,
 File.WriteAllBytes("myQoiImage.qoi", qoiFileBytes);
 ...
 ```
-<br/><br/>
+---
 ## List of compatible .Net implementations:
-<br/>
-<div align="center">
-
-| | |
-|:--------------------------------:|:-----------------:|
-| ![GitHub](https://img.shields.io/badge/-Net_Standard_2.0-blue) | ![GitHub](https://img.shields.io/badge/-Net_Framework_4.6.1+-blue) |
-| ![GitHub](https://img.shields.io/badge/-Net_Core_2.0+-blue) | ![GitHub](https://img.shields.io/badge/-NET_5.0+-blue) |
-| ![GitHub](https://img.shields.io/badge/-Mono_5.4+-blue) | ![GitHub](https://img.shields.io/badge/-Xamarin.iOS_10.14+-blue) |
-| ![GitHub](https://img.shields.io/badge/-Xamarin.Android_8.0+-blue) | ![GitHub](https://img.shields.io/badge/-Unity_2018+-blue) |
-
-</div>
+ 
+![GitHub](https://img.shields.io/badge/-Net_Standard_2.0+-blue) ![GitHub](https://img.shields.io/badge/-Net_Framework_4.6.1+-blue) ![GitHub](https://img.shields.io/badge/-Net_Core_2.0+-blue) ![GitHub](https://img.shields.io/badge/-NET_5.0+-blue) ![GitHub](https://img.shields.io/badge/-Mono_5.4+-blue) ![GitHub](https://img.shields.io/badge/-Xamarin.iOS_10.14+-blue) ![GitHub](https://img.shields.io/badge/-Xamarin.Android_8.0+-blue) ![GitHub](https://img.shields.io/badge/-Unity_2018+-blue) 
